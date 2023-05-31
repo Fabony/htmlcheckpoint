@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html checkpoint
     </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav >
+            <ul class="bar">
                  <li><a href="head.html">Home</a></li>
                  <li><a href="About.html">About Us</a></li>
                  <li><a href="Work.html">Work</a></li>
@@ -19,24 +20,26 @@
                  
                  
             </ul>
+            <img src="log2.jpg" alt="#">
+            <h2 class="tp">Csscheckpoint</h2>
         </nav>
     </header>
     <sector>
         <a href="#contact">click now</a>
         <h2 id="top">About Us</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, quo! Temporibus odit,
+        <p class="con">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, quo! Temporibus odit,
              quod possimus 
             consectetur nesciunt iste. Molestiae nostrum a natus sit voluptates earum, fugit,
              possimus exercitationem ducimus quas consectetur assumenda dolorem est 
              vero quia animi numquam et atque cumque!</p>
-             <iframe width="420" height="315"
+             <iframe width="420" height="315" class="vid"
                 src="https://www.youtube.com/embed/tgbNymZ7vqY">
              </iframe>
         
     </sector>
     <section>
-        <h2>Our Work</h2>
-        <img src="5g.jpg" width="300" height="400" alt="">
+        <h2 class="work">Our Work</h2>
+        <img src="5g.jpg" width="300" height="400" alt="" class="wrk">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit doloremque sit at aliquid totam deserunt,
              quasi veritatis ipsa a quae amet illo voluptas perferendis! Iusto alias recusandae dolorum a voluptates.</p>
         <audio controls>
@@ -44,7 +47,7 @@
         </audio>
     </section>
     <article>
-        <h3>Resume</h3>
+        <h3 class="resume">Resume</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iste consectetur 
             neque mollitia minima delectus laudantium exercitationem fugiat, soluta rem illum tempore
              repellendus provident voluptates doloremque ipsa nulla ullam? Fugit dolor tempore enim at numquam,
@@ -52,12 +55,12 @@
              ab dolore sed placeat pariatur exercitationem similique quod quam obcaecati.</p>
     </article>
     <aside>
-        <h2 id="contact">Contact Us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum facere labore 
+        <h2 id="contact" class="con">Contact Us</h2>
+        <p class="contactp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum facere labore 
             aspernatur dignissimos rem animi voluptatibus, beatae incidunt
           nulla et ducimus perspiciatis, aliquid officiis, dolorum optio dolorem dolore aperiam perferendis.
         </p>
-        <table>
+        <table class="tab">
             <tr>
                 <th>Name</th>
                 <th>Course</th>
@@ -84,13 +87,14 @@
             </tr>
         </table>
         <section>
+            <form id="customerpage">
             <div class="jim">
                 <input type="search" placeholder="Enter your House Address" size="50" class="ser"><br>
-                <button type="submit" class="sub">Get started</button><br>
+                
             </div>
-        <div>
-         <form id="customerpage">
-            <div class=" fN">
+        <div class=" fN">
+         
+            <div >
                 <label for="text">First Name</label><br>
                 <input type="text" placeholder="John"name="fn" size="50" class="firNa"><br>
             </div>
@@ -106,16 +110,17 @@
                     <option>500000.00</option>
                     <option>1000000.0</option>
                   </select>
-                  <label for="budgets">Budgets</label>
+                  <label for="budgets">Budgets</label><br>
+                  <button type="submit" class="sub">Get started</button ><br>
             </div>
-           
+        </div>
          </form>
-     </div>
+     
     </section>
 
     </aside>
     <footer>
-        copy right<br>
+        &copy<br>
         <a href="#top">Top</a>
     </footer>
 
